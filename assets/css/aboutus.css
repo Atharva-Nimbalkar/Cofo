@@ -1,0 +1,27 @@
+.sec2 {
+  margin-top: 20px;
+  padding: 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(158, 158, 158);
+}
+.about,
+.para {
+  width: 62%;
+  margin: 2px 21%;
+  text-align: center;
+}
+.about {
+  padding: 20px 0;
+  font-size: 60px;
+  font-family: roboto;
+}
+hr {
+  width: 50%;
+  margin: 0 25%;
+}
+.para {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align-last: left;
+}

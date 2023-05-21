@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.gogle,
+.content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#googleLogo {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+/* content */
+.content .contentDiv {
+  width: 49.5%;
+}
+.cd1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cd1 img {
+  width: 500px;
+}
+.cd2 {
+  font-family: "Roboto", sans-serif;
+  text-align: start;
+}

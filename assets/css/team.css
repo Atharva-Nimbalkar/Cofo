@@ -1,0 +1,26 @@
+.team {
+  padding: 0px 20px;
+}
+.profiles {
+  border: 1px solid grey;
+  width: 250px;
+  border-radius: 5px;
+  margin: 3px 1.5%;
+  display: inline-block;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.profiles img {
+  width: 120px;
+  height: 120px;
+  margin: 10px 60px;
+  border-radius: 50%;
+  border: 1px solid grey;
+}
+.profiles p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.profiles .p {
+  font-weight: 500;
+}

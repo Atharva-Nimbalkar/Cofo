@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap");
+
+.navbar {
+  padding: 0;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 35px;
+  padding: 0;
+  margin-left: 0.2%;
+}
+.nav-link {
+  color: #373636;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item {
+  text-align: center;
+  font-size: 20px;
+}
+.nav-link:hover {
+  background-color: #32acae;
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+#hero {
+  width: 100%;
+  height: 650px;
+  background-image: url("../images/p1.webp");
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  background-size: cover;
+}
+.logo {
+  width: 150px;
+  height: 90px;
+  margin: 20px;
+  margin-top: -180px;
+  display: inline-block;
+  border-radius: 20px;
+}
+#hero h1 {
+  display: inline-block;
+  text-align: center;
+  font-size: 160px;
+  font-weight: 500;
+  color: #06234b;
+
+  font-family: "Great Vibes", cursive;
+  margin: 50px 22%;
+}
+#hero .profile {
+  width: 100px;
+  border-radius: 50%;
+  float: right;
+  margin: 20px;
+}
+.section1,
+.section2 {
+  /* border: 1px solid red; */
+}
+.search {
+  width: 50%;
+  height: 50px;
+  margin: 80px 25% 30px 25%;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+}
+.searchLogo {
+  position: absolute;
+  color: #2f3034;
+  margin-left: -430px;
+  margin-top: 90px;
+  font-size: 27px;
+}
+.tagline {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 0;
+}
+.date {
+  margin-top: -20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .navbar-nav {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .nav-item {
+    margin-left: 7%;
+  }
+  .nav-link:hover {
+    background-color: unset;
+    color: red;
+  }
+}
